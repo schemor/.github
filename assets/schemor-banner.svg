@@ -1,0 +1,57 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#09090B"/>
+      <stop offset="0.55" stop-color="#111114"/>
+      <stop offset="1" stop-color="#09090B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 30) rotate(140) scale(480 360)">
+      <stop stop-color="#EF4444" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#EF4444" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="30" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="30" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="29" stroke="#27272A" stroke-width="2"/>
+
+  <g opacity="0.22">
+    <path d="M0 86H1200" stroke="#3F3F46"/>
+    <path d="M0 172H1200" stroke="#3F3F46"/>
+    <path d="M0 258H1200" stroke="#3F3F46"/>
+    <path d="M173 0V360" stroke="#27272A"/>
+    <path d="M346 0V360" stroke="#27272A"/>
+    <path d="M519 0V360" stroke="#27272A"/>
+    <path d="M692 0V360" stroke="#27272A"/>
+    <path d="M865 0V360" stroke="#27272A"/>
+    <path d="M1038 0V360" stroke="#27272A"/>
+  </g>
+
+  <g transform="translate(70 64)">
+    <rect width="58" height="58" rx="15" fill="#17171B" stroke="#3F3F46"/>
+    <rect x="18" y="18" width="22" height="22" transform="rotate(45 29 29)" stroke="#EF4444" stroke-width="5"/>
+  </g>
+
+  <text x="155" y="105" fill="#FAFAFA" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800" letter-spacing="-1.6">Schemor</text>
+  <text x="70" y="190" fill="#FAFAFA" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-3.4">Бэкенд начинается</text>
+  <text x="70" y="258" fill="#FAFAFA" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-3.4">со схемы данных.</text>
+  <text x="72" y="308" fill="#A1A1AA" font-family="Inter, Arial, sans-serif" font-size="21">CMS и бэкенд-платформа, управляемая метаданными</text>
+
+  <g filter="url(#shadow)">
+    <rect x="885" y="92" width="245" height="74" rx="16" fill="#101014" stroke="#3F3F46"/>
+    <text x="909" y="120" fill="#71717A" font-family="monospace" font-size="13">entity Product</text>
+    <text x="909" y="145" fill="#E4E4E7" font-family="monospace" font-size="14">name · price · category</text>
+
+    <path d="M1007 177V207" stroke="#EF4444" stroke-width="2"/>
+    <path d="M1001 201L1007 208L1013 201" stroke="#EF4444" stroke-width="2"/>
+
+    <rect x="918" y="219" width="178" height="54" rx="14" fill="#2A1114" stroke="#EF4444" stroke-opacity="0.72"/>
+    <text x="956" y="253" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Schemor</text>
+
+    <path d="M1007 284V309" stroke="#52525B" stroke-width="2"/>
+    <circle cx="1007" cy="320" r="5" fill="#EF4444"/>
+  </g>
+</svg>
